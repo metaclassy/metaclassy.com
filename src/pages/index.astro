@@ -1,0 +1,24 @@
+---
+import Footer from "../components/Footer.astro";
+import Hero from "../components/Hero.astro";
+import Layout from "../layouts/Layout.astro";
+import Projects from "../components/Projects.astro";
+---
+
+<Layout title="Metaclassy · Product development for iOS, macOS, and visionOS">
+  <Hero />
+  <main class="bg-primary">
+    <div class="px-8 2xl:max-w-7xl mx-auto py-6">
+      <div class="grid grid-cols-1 lg:grid-cols-4 text-secondary gap-6">
+        <p class="text-xs lg:col-start-1 leading-relaxed">
+          Metaclassy is a tiny studio focused on software and product development for Apple platforms. 
+		      Founded in 2010 by <a href="https://twitter.com/jpedroso">Jorge Pedroso</a>, it has been his 
+          outlet for developing products in-house like Byword, and providing services to award-winning 
+          companies like Sketch.
+        </p>
+      </div>
+    </div>
+    <Projects />
+  </main>
+  <Footer />
+</Layout>
