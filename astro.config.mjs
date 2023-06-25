@@ -3,7 +3,6 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://metaclassy.com/',
-  base: '/metaclassy.com',
+  site: 'https://www.metaclassy.com/',
   integrations: [tailwind()]
 });
